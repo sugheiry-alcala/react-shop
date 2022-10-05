@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/sugheiry-alcala/react-shop",
+  "homepage": "https://sugheiryalcala.github.io/react-shop",
   "name": "react-shop",
   "version": "1.0.0",
   "description": "react shop",
@@ -10,6 +10,18 @@
     "build": "webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "keywords": [
     "react",
